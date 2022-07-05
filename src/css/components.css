@@ -1,0 +1,50 @@
+.container {
+    --max-width: 82.5rem
+
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.button {
+    font-weight: 600;
+    padding: 0.4rem 1.5rem;
+    border-radius: 2rem;
+    border: 1px solid;
+    border-color: unset;
+    cursor: pointer;
+}
+
+.button__primary {
+    --primary-color: var(--color-black);
+
+    background-color: rgba(var(--primary-color), 1);
+    border-color: rgba(var(--primary-color), 1);
+    color: rgba(var(--color-white), 1);
+
+    transition: 144ms;
+}
+
+.button__primary:hover {
+    --primary-color: var(--color-black);
+
+    background-color: rgba(var(--color-white), 1);
+    color: rgba(var(--primary-color), 1);
+}
+
+.button__primary--purple,
+.button__primary--purple:hover {
+    --primary-color: var(--color-purple);
+}
+
+.button__primary--green,
+.button__primary--green:hover {
+    --primary-color: var(--color-green);
+}
+
+.card {
+    box-shadow: 0 0 5px 0 rgba(var(--color-purple), 0.25);
+    border-radius: 4px;
+    overflow: hidden;
+}

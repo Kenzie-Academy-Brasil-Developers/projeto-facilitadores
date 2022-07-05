@@ -1,0 +1,121 @@
+/*
+
+     320px => CELULARES PEQUENO PORTE
+     586px => CELULARES MÉDIO PORTE
+     768px => TABLET
+     992px => DESKTOP PEQUENO / TABLET GRANDE
+    1200px => DESKTOP
+    1440px => DESKTOP GRANDE
+
+*/
+
+.header {
+    width: 100vw;
+    height: 5rem;
+    border-bottom: 1px solid rgba(var(--color-gray-light), 1);
+
+    color: red;
+}
+
+.header > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+}
+
+main {
+    margin: 5rem 0;
+}
+
+.home > .container {
+    max-width: 50rem;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 2rem;
+}
+
+@media screen and (min-width: 728px) {
+    .filter {
+        justify-content: flex-end;
+    }
+}
+
+.filter select {
+    appearance: none;
+    padding: 0.4rem 1rem;
+    border-radius: 2rem;
+    border: 1px solid rgba(var(--color-purple-light), 1);
+    width: 7.5rem;
+    font-size: 1rem;
+    color: rgba(var(--color-purple-light), 1);
+    background-image: url(../assets/img/chevron-down.svg);
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 90% center;
+}
+
+.petsHome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .petsHome {
+        gap: 3rem;
+        justify-content: initial;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .petsHome {
+        gap: 4rem;
+    }
+}
+
+.petsHome__info {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.petsHome__info h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(var(--color-purple), 1);
+}
+
+.petsHome__info span {
+    font-size: 0.9rem;
+    color: rgba(var(--color-gray), 1);
+    margin: 0 0 1rem;
+}
+
+.petsHome__info .button {
+    align-self: center;
+}
+
+.footer {
+    --color-purple-light: 241, 238, 247; 
+
+    background-color: rgba(var(--color-purple-light), 1);
+    color: rgba(var(--color-purple), 1);
+
+    height: 3rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.footer > .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+}

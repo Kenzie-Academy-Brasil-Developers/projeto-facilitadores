@@ -1,0 +1,13 @@
+:root {
+    --color-white: 255, 255, 255;
+    --color-black: 27, 28, 30;
+
+    --color-purple: 78, 32, 150;
+    --color-purple-light: 180, 140, 242;
+    --color-green: 51, 204, 102;
+    --color-gray-light: 238, 238, 238;
+    --color-gray: 144, 164, 174;
+
+    --font-base: 'Open Sans', sans-serif;
+    --font-heading: 'Nunito', sans-serif;
+}
