@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KenziePets | Dashboard</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../src/css/base.css">
+    <link rel="stylesheet" href="../src/css/reset.css">
+    <link rel="stylesheet" href="../src/css/components.css">
+    <link rel="stylesheet" href="../src/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <figure>
+                <img src="../src/assets/img/logo.svg" alt="KenziePets">
+            </figure>
+    
+            <button type="button" class="button button__primary button__primary--purple">Logout</button>
+        </div>
+    </header>
+    
+    <main class="dashboard">
+        <section class="userAvatar">
+            <div class="container">
+                <figure>
+                    <img src="../src/assets/temp/user-placeholder.png" alt="userName">
+                </figure>
+            </div>
+        </section>
+
+        <section class="userInfo">
+            <div class="container">
+                <div class="card userInfo__card">
+                    <h2>Dados Pessoais</h2>
+
+                    <ul>
+                        <li>
+                            <p>Nome: <span class="userName">Kenzinha</span></p>
+                        </li>
+
+                        <li>
+                            <p>E-mail: <span class="userEmail">kenzinha@kenzie.com.br</span></p>
+                        </li>
+                    </ul>
+
+                    <button type="button" class="button button__primary button__primary--purple">Atualizar informações</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <section class="filter dashboard">
+                <button type="button" class="button button__primary button__primary--green">Cadastrar novo pet</button>
+
+                <form class="filter__form">
+                    <select name="search" id="search">
+                        <option value="">Raça</option>
+                        <option value="Raça 1">Raça 1</option>
+                        <option value="Raça 1">Raça 2</option>
+                        <option value="Raça 1">Raça 3</option>    
+                    </select>
+
+                    <button type="button" class="button button__primary button__primary--purple">Buscar</button>
+                </form>
+            </section>
+
+            <section class="petsDashboard">
+                <div class="card petsDashboard__card">
+                    <figure class="petsDashboard__avatar">
+                        <img src="../src/assets/temp/pet-placeholder-01.png" alt="">
+                    </figure>
+
+                    <div class="petsDashboard__info">
+                        <ul>
+                            <li>
+                                <p>Nome: <span class="petName">Nome</span></p>
+                            </li>
+
+                            <li>
+                                <p>Raça: <span class="petBreed">Raça</span></p>
+                            </li>
+
+                            <li>
+                                <p>Adotável?: <span class="petAdoptable">Sim</span></p>
+                            </li>
+                        </ul>
+    
+                        <button type="button" class="button button__primary button__primary--purple">Atualizar</button>
+                    </div>
+                </div>
+
+                <div class="card petsDashboard__card">
+                    <figure class="petsDashboard__avatar">
+                        <img src="../src/assets/temp/pet-placeholder-02.png" alt="">
+                    </figure>
+
+                    <div class="petsDashboard__info">
+                        <ul>
+                            <li>
+                                <p>Nome: <span class="petName">Nome</span></p>
+                            </li>
+
+                            <li>
+                                <p>Raça: <span class="petBreed">Raça</span></p>
+                            </li>
+
+                            <li>
+                                <p>Adotável?: <span class="petAdoptable">Sim</span></p>
+                            </li>
+                        </ul>
+    
+                        <button type="button" class="button button__primary button__primary--purple">Atualizar</button>
+                    </div>
+                </div>
+
+                <div class="card petsDashboard__card">
+                    <figure class="petsDashboard__avatar">
+                        <img src="../src/assets/temp/pet-placeholder-03.png" alt="">
+                    </figure>
+
+                    <div class="petsDashboard__info">
+                        <ul>
+                            <li>
+                                <p>Nome: <span class="petName">Nome</span></p>
+                            </li>
+
+                            <li>
+                                <p>Raça: <span class="petBreed">Raça</span></p>
+                            </li>
+
+                            <li>
+                                <p>Adotável?: <span class="petAdoptable">Sim</span></p>
+                            </li>
+                        </ul>
+    
+                        <button type="button" class="button button__primary button__primary--purple">Atualizar</button>
+                    </div>
+                </div>
+
+                <div class="card petsDashboard__card">
+                    <figure class="petsDashboard__avatar">
+                        <img src="../src/assets/temp/pet-placeholder-04.png" alt="">
+                    </figure>
+
+                    <div class="petsDashboard__info">
+                        <ul>
+                            <li>
+                                <p>Nome: <span class="petName">Nome</span></p>
+                            </li>
+
+                            <li>
+                                <p>Raça: <span class="petBreed">Raça</span></p>
+                            </li>
+
+                            <li>
+                                <p>Adotável?: <span class="petAdoptable">Sim</span></p>
+                            </li>
+                        </ul>
+    
+                        <button type="button" class="button button__primary button__primary--purple">Atualizar</button>
+                    </div>
+                </div>
+
+                <div class="card petsDashboard__card">
+                    <figure class="petsDashboard__avatar">
+                        <img src="../src/assets/temp/pet-placeholder-05.png" alt="">
+                    </figure>
+
+                    <div class="petsDashboard__info">
+                        <ul>
+                            <li>
+                                <p>Nome: <span class="petName">Nome</span></p>
+                            </li>
+
+                            <li>
+                                <p>Raça: <span class="petBreed">Raça</span></p>
+                            </li>
+
+                            <li>
+                                <p>Adotável?: <span class="petAdoptable">Sim</span></p>
+                            </li>
+                        </ul>
+    
+                        <button type="button" class="button button__primary button__primary--purple">Atualizar</button>
+                    </div>
+                </div>
+
+                <div class="card petsDashboard__card">
+                    <figure class="petsDashboard__avatar">
+                        <img src="../src/assets/temp/pet-placeholder-06.png" alt="">
+                    </figure>
+
+                    <div class="petsDashboard__info">
+                        <ul>
+                            <li>
+                                <p>Nome: <span class="petName">Nome</span></p>
+                            </li>
+
+                            <li>
+                                <p>Raça: <span class="petBreed">Raça</span></p>
+                            </li>
+
+                            <li>
+                                <p>Adotável?: <span class="petAdoptable">Sim</span></p>
+                            </li>
+                        </ul>
+    
+                        <button type="button" class="button button__primary button__primary--purple">Atualizar</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <span>KenziePets | Todos os Direitos Reservados</span>
+        </div>
+    </footer>
+
+    <script type="module" src="./src/js/script.js"></script>
+</body>
+</html>

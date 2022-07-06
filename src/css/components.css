@@ -1,5 +1,5 @@
 .container {
-    --max-width: 82.5rem
+    --max-width: 82.5rem;
 
     width: 100%;
     max-width: var(--max-width);
