@@ -15,7 +15,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video, button, select {
+time, mark, audio, video, button, select, input {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -27,6 +27,10 @@ time, mark, audio, video, button, select {
 html, body {
 	color: rgba(var(--color-black), 1);
 	font-family: var(--font-base);
+}
+
+a {
+	text-decoration: none;
 }
 
 /* HTML5 display-role reset for older browsers */
