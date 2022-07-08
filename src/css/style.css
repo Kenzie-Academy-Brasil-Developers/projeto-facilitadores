@@ -289,10 +289,10 @@ main {
 }
 
 @media screen and (min-width: 586px) {
-  .petsDashboard__avatar img {
+  /* .petsDashboard__avatar img {
     width: auto;
     height: 100%;
-  }
+  } */
 }
 
 .petsDashboard__info {

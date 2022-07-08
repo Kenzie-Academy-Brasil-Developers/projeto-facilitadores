@@ -139,7 +139,7 @@ export default class ComponentsDom {
     figure.append(img);
     form.append(inputEmail, inputPassword, formButton);
     buttonClose.append(figure);
-    modalInner.append(buttonClose, h2, form);
+    modalInner.append(buttonClose, h2, form, p);
     container.append(modalInner);
     modal.append(container);
     this.body.append(modal);
