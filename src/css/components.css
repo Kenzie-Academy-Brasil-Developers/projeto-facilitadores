@@ -8,12 +8,21 @@
 }
 
 .button {
+    appearance: button;
     font-weight: 600;
     padding: 0.4rem 1.5rem;
     border-radius: 2rem;
     border: 1px solid;
     border-color: unset;
     cursor: pointer;
+    transform: scale(1);
+
+    transition: 144ms;
+}
+
+.button:active {
+    transform: scale(0.97);
+    transform-origin: center;
 }
 
 .button__primary {
@@ -22,8 +31,6 @@
     background-color: rgba(var(--primary-color), 1);
     border-color: rgba(var(--primary-color), 1);
     color: rgba(var(--color-white), 1);
-
-    transition: 144ms;
 }
 
 .button__primary:hover {
@@ -41,6 +48,31 @@
 .button__primary--green,
 .button__primary--green:hover {
     --primary-color: var(--color-green);
+}
+
+.button__secondary {
+    --secondary-color: var(--color-black);
+
+    background-color: rgba(var(--color-white), 1);
+    border-color: rgba(var(--secondary-color), 1);
+    color: rgba(var(--secondary-color), 1);
+}
+
+.button__secondary:hover {
+    --secondary-color: var(--color-black);
+
+    background-color: rgba(var(--secondary-color), 1);
+    color: rgba(var(--color-white), 1);
+}
+
+.button__secondary--purple,
+.button__secondary--purple:hover {
+    --secondary-color: var(--color-purple);
+}
+
+.button__secondary--red,
+.button__secondary--red:hover {
+    --secondary-color: var(--color-red);
 }
 
 .card {
